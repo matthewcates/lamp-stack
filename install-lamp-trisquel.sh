@@ -37,7 +37,7 @@ case $answer in
 		echo "----------------------------------------------------"
 		echo "***Creating a test php page at localhost/test.php***"
 		echo "----------------------------------------------------"
-		sudo cp test.php /var/www/html/test.php
+		sudo cp assets/php/test.php /var/www/html/test.php
 
 		break;;
 
